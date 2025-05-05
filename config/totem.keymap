@@ -9,10 +9,16 @@
 #define SYM  2
 #define ADJ  3
 
-&mt {
-    quick-tap-ms = <100>;
-    flavor = "hold-preferred";
+&lt {
     tapping-term-ms = <170>;
+    quick-tap-ms = <100>;
+    flavor = "tap-preferred";
+};
+
+&mt {
+    tapping-term-ms = <170>;
+    quick-tap-ms = <100>;
+    flavor = "tap-preferred";
 };
 
 / {
